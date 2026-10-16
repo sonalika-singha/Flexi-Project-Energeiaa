@@ -32,7 +32,7 @@ The application is built using FastAPI and integrates with Groq's language model
 | Jinja2 | HTML templating |
 | HTML, CSS, JavaScript | Web interface |
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Flexi-Project-Energeiaa/
@@ -115,7 +115,7 @@ uvicorn main:app --reload
 When the server starts successfully, the terminal will display a local address.
 
 
-## 🔌 API Endpoints
+## API Endpoints
 
 The application defines the following endpoints in `main.py`:
 
@@ -129,7 +129,7 @@ The application defines the following endpoints in `main.py`:
 | GET | `/dataset-patients` | Returns patient records from the dataset |
 | POST | `/run-dataset-patient` | Generates a report using a selected dataset patient |
 
-## 🧪 Testing
+## Testing
 
 The repository includes test files for agent functionality and dataset-related operations.
 
@@ -142,7 +142,7 @@ python test_dataset.py
 
 These commands execute the test scripts. Ensure the required dependencies and configuration are available before running them.
 
-## 🔐 Environment Variables
+## Environment Variables
 
 | Variable | Description |
 |---|---|
@@ -166,7 +166,7 @@ Add `GROQ_API_KEY` in the hosting platform's environment-variable settings befor
 
 
 
-## 👩‍💻 Author
+## Author
 
 **Sonalika Singha**
 
